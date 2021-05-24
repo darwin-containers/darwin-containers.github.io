@@ -1,0 +1,8 @@
+# Site settings
+title: macOS Containers
+description: macOS Containers
+url: "https://macoscontainers.org"
+baseurl: ""
+
+# Build settings
+exclude: [".gitignore", "README.md"]

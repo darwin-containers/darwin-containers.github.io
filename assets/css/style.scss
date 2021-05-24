@@ -1,0 +1,54 @@
+---
+---
+@import 'thirdparty/bootstrap.min.scss';
+
+html, body {
+	min-height: 100%;
+}
+
+body {
+	background: radial-gradient(ellipse at top, transparent 0%, transparent 88%, rgba(242,242,242,1) 100%),
+	            radial-gradient(ellipse at bottom, transparent 0%, transparent 88%, rgba(242,242,242,1) 100%);
+}
+
+h1, p {
+	text-align: center;
+}
+
+h1 {
+	margin: 4rem 0;
+}
+
+p
+{
+	font-size: 1.25rem;
+	font-weight: 300;
+}
+
+p + p {
+	margin-top: 2rem;
+}
+
+p.button-wrapper {
+	margin-top: 3rem;
+}
+
+.footer
+{
+	margin-top: 8rem;
+	margin-bottom: 2rem;
+}
+
+.footer p
+{
+	margin: 0.5rem 0;
+	font-size: 1rem;
+	color: #555;
+}
+
+@media only screen and (max-width: 991.99px)
+{
+	html {
+		font-size: 0.9rem;
+	}
+}
