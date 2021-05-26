@@ -1,6 +1,11 @@
 ---
 layout: home
+title: macOS Containers Initiative
 ---
+
+{::nomarkdown}
+<p class="logo"><img src="{{ "/" | relative_url }}assets/images/favicon.svg" alt="macOS Containers logo"></p>
+{:/}
 
 # macOS Containers
 
@@ -12,6 +17,12 @@ The open source developer community is working together to implement support for
 <p class="button-wrapper">
 	<a class="btn btn-primary btn-lg" href="https://github.com/containerd/containerd/discussions/5525" role="button">View the proposal on GitHub</a>
 </p>
+
+<ul class="social">
+{% for link in site.data.nav.social %}
+	<li><a href="{{ link.url | uri_escape }}"><span class="icon {{ link.icon }}" alt="{{ link.name | escape }}" title="{{ link.name | escape }}"></span></a></li>
+{% endfor %}
+</ul>
 
 <div class="footer">
 	<p>Mac and macOS are trademarks of Apple Inc., registered in the U.S. and other countries and regions.</p>

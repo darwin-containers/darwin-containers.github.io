@@ -15,8 +15,10 @@ h1, p {
 	text-align: center;
 }
 
-h1 {
-	margin: 4rem 0;
+h1
+{
+	margin: 0;
+	margin-bottom: 4rem;
 }
 
 p
@@ -33,10 +35,47 @@ p.button-wrapper {
 	margin-top: 3rem;
 }
 
-.footer
+.logo
 {
+	margin: 0;
+	margin-top: 4rem;
+}
+
+.logo img {
+	width: 7.5rem;
+}
+
+.social
+{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	
+	padding: 0;
 	margin-top: 8rem;
-	margin-bottom: 2rem;
+	margin-bottom: 0;
+}
+
+.social li
+{
+	margin: 1rem;
+	padding: 0;
+}
+
+.social li a
+{
+	font-size: 2rem;
+	color: #000;
+}
+
+.social li a:hover {
+	color: #007bff;
+}
+
+.footer {
+	margin: 2rem 0;
 }
 
 .footer p
@@ -49,6 +88,6 @@ p.button-wrapper {
 @media only screen and (max-width: 991.99px)
 {
 	html {
-		font-size: 0.9rem;
+		font-size: 0.8rem;
 	}
 }

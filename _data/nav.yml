@@ -1,0 +1,9 @@
+social:
+  -
+    name: Twitter
+    url: "https://twitter.com/macoscontainers"
+    icon: "fab fa-twitter"
+  -
+    name: Email
+    url: "mailto:contact@macoscontainers.org"
+    icon: "fas fa-envelope"

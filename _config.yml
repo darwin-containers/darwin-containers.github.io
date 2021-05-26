@@ -1,5 +1,6 @@
 # Site settings
 title: macOS Containers
+email: contact@macoscontainers.org
 description: macOS Containers
 url: "https://macoscontainers.org"
 baseurl: ""
