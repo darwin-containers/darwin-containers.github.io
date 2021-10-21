@@ -1,15 +1,21 @@
 ---
 ---
 @import 'thirdparty/bootstrap.min.scss';
+@import 'fonts/open-sans.scss';
 
 html, body {
 	min-height: 100%;
 }
 
-body {
+body
+{
 	background: radial-gradient(ellipse at top, transparent 0%, transparent 88%, rgba(242,242,242,1) 100%),
 	            radial-gradient(ellipse at bottom, transparent 0%, transparent 88%, rgba(242,242,242,1) 100%);
+	
+	/* Override the system font stack from Bootstrap to use Open Sans as a fallback under Linux */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Fira Sans", "Helvetica Neue", "Noto Sans", "Open Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
 
 h1, p {
 	text-align: center;
