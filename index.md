@@ -11,7 +11,7 @@ title: macOS Containers Initiative
 
 Containers have fundamentally changed the way that modern software is developed and deployed. Containers are supported by a wide range of operating systems including FreeBSD, Solaris, Linux and even Windows, but are not natively supported by macOS. **Until now.**
 
-We're announcing initial release of macOS native containers.  Yes, you can now **run macOS inside macOS**, build images using Docker and distribute them using registries.
+We're announcing initial 0.0.1 release of macOS native containers.  Yes, you can now **run macOS inside macOS**, build images using Docker and distribute them using registries.
 
 ![Showcase](assets/images/showcase.png)
 
