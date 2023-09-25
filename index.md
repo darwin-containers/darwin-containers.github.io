@@ -21,4 +21,3 @@ So what are you waiting for? Installation is available via [Homebrew](https://gi
 	<p>Mac and macOS are trademarks of Apple Inc., registered in the U.S. and other countries and regions.</p>
 	<p>This website is an independent community initiative and has not been authorised, sponsored, or otherwise approved by Apple Inc.</p>
 </div>
-{:/}
