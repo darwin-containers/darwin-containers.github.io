@@ -11,18 +11,11 @@ title: macOS Containers Initiative
 
 Containers have fundamentally changed the way that modern software is developed and deployed. Containers are supported by a wide range of operating systems including FreeBSD, Solaris, Linux and even Windows, but are not natively supported by macOS. **Until now.**
 
-The open source developer community is working together to implement support for native containers on macOS. The first step is to add low-level components in [containerd](https://containerd.io/), the underlying runtime used by both Docker and Kubernetes. This foundational work will pave the way for adoption of macOS containers throughout the container tooling ecosystem. **You can help by upvoting or commenting on the feature proposal:**
+We're announcing initial release of macOS native containers.  Yes, you can now **run macOS inside macOS**, build images using Docker and distribute them using registries.
 
-{::nomarkdown}
-<p class="button-wrapper">
-	<a class="btn btn-primary btn-lg" href="https://github.com/containerd/containerd/discussions/5525" role="button">View the proposal on GitHub</a>
-</p>
+![Showcase](assets/images/showcase.png)
 
-<ul class="social">
-{% for link in site.data.nav.social %}
-	<li><a href="{{ link.url | uri_escape }}"><span class="icon {{ link.icon }}" alt="{{ link.name | escape }}" title="{{ link.name | escape }}"></span></a></li>
-{% endfor %}
-</ul>
+So what are you waiting for? Installation is available via [Homebrew](https://github.com/macOScontainers/homebrew-formula#installation).
 
 <div class="footer">
 	<p>Mac and macOS are trademarks of Apple Inc., registered in the U.S. and other countries and regions.</p>
