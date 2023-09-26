@@ -15,7 +15,7 @@ We're announcing initial 0.0.1 release of macOS native containers.  Yes, you can
 
 ![Showcase](assets/images/showcase.png)
 
-So what are you waiting for? Installation is available via [Homebrew](https://github.com/macOScontainers/homebrew-formula#installation).
+So what are you waiting for? Installation is available via [Homebrew](https://github.com/macOScontainers/homebrew-formula#readme).
 
 <div class="footer">
 	<p>Mac and macOS are trademarks of Apple Inc., registered in the U.S. and other countries and regions.</p>
