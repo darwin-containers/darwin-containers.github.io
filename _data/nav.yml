@@ -1,13 +1,13 @@
 social:
   -
     name: GitHub
-    url: "https://github.com/macOScontainers"
+    url: "https://github.com/darwin-containers"
     icon: "fab fa-github"
-  -
-    name: Twitter
-    url: "https://twitter.com/macoscontainers"
-    icon: "fab fa-twitter"
-  -
-    name: Email
-    url: "mailto:contact@macoscontainers.org"
-    icon: "fas fa-envelope"
+#  -
+#    name: Twitter
+#    url: "https://twitter.com/darwin-containers"
+#    icon: "fab fa-twitter"
+#  -
+#    name: Email
+#    url: "mailto:contact@darwin-containers.org"
+#    icon: "fas fa-envelope"

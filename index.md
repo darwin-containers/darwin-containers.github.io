@@ -1,23 +1,18 @@
 ---
 layout: home
-title: macOS Containers Initiative
+title: Darwin Containers Initiative
 ---
 
 {::nomarkdown}
-<p class="logo"><img src="{{ "/" | relative_url }}assets/images/favicon.svg" alt="macOS Containers logo"></p>
+<p class="logo"><img src="{{ "/" | relative_url }}assets/images/favicon.svg" alt="Darwin Containers logo"></p>
 {:/}
 
-# macOS Containers
+# Darwin Containers
 
-Containers have fundamentally changed the way that modern software is developed and deployed. Containers are supported by a wide range of operating systems including FreeBSD, Solaris, Linux and even Windows, but are not natively supported by macOS. **Until now.**
+Containers have fundamentally changed the way that modern software is developed and deployed. Containers are supported by a wide range of operating systems including FreeBSD, Solaris, Linux and even Windows, but are not natively supported by Darwin. **Until now.**
 
-We're announcing initial 0.0.1 release of macOS native containers.  Yes, you can now **run macOS inside macOS**, build images using Docker and distribute them using registries.
+We're announcing initial 0.0.1 release of Darwin native containers.  Yes, you can now **run Darwin inside Darwin**, build images using Docker and distribute them using registries.
 
 ![Showcase](assets/images/showcase.png)
 
-So what are you waiting for? Installation is available via [Homebrew](https://github.com/macOScontainers/homebrew-formula#readme).
-
-<div class="footer">
-	<p>Mac and macOS are trademarks of Apple Inc., registered in the U.S. and other countries and regions.</p>
-	<p>This website is an independent community initiative and has not been authorised, sponsored, or otherwise approved by Apple Inc.</p>
-</div>
+So what are you waiting for? Installation is available via [Homebrew](https://github.com/darwin-containers/homebrew-formula#readme).

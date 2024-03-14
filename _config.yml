@@ -1,8 +1,8 @@
 # Site settings
-title: macOS Containers
-email: contact@macoscontainers.org
-description: macOS Containers
-url: "https://macoscontainers.org"
+title: Darwin Containers
+# email: contact@darwin-containers.org
+description: Darwin Containers
+url: "https://darwin-containers.github.io"
 baseurl: ""
 
 # Build settings
